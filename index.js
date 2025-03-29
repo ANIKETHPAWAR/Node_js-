@@ -38,3 +38,17 @@ const product3 ={
 const products = [product,product2,product3];
 
 console.log(products)
+
+
+//problem 4
+const guestList = ["ani","rahul","sa","tra"];
+
+
+const guest = Prompt("Enter your name :")
+ function checking(){
+    if (guestList.includes(guest)){
+console.log(`welcome to the party ${guest}`)
+    }else{
+        console.log("Your not invited!!")
+    }
+ }
