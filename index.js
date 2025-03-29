@@ -41,14 +41,25 @@ console.log(products)
 
 
 //problem 4
-const guestList = ["ani","rahul","sa","tra"];
+// const guestList = ["ani","rahul","sa","tra"];
 
 
-const guest = Prompt("Enter your name :")
- function checking(){
-    if (guestList.includes(guest)){
-console.log(`welcome to the party ${guest}`)
-    }else{
-        console.log("Your not invited!!")
-    }
- }
+// const guest = Prompt("Enter your name :")
+//  function checking(){
+//     if (guestList.includes(guest)){
+// console.log(`welcome to the party ${guest}`)
+//     }else{
+//         console.log("Your not invited!!")
+//     }
+//  }
+//  problem 5
+
+const Weather = {
+    date  : "29-3-2025",
+    temp : 38,
+    conditions: "summer",
+    humidity: "humid"
+
+}
+
+console.log(Weather.date)
