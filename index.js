@@ -13,8 +13,28 @@ const Prompt = require('prompt-sync')()
 // }
 
 // problem 2
-const length = Prompt('Enter length of rectangle :')
-const width = Prompt("Enter width : ")
+// const length = Prompt('Enter length of rectangle :')
+// const width = Prompt("Enter width : ")
 
-var area = length * width;
-console.log (`The area of rectangle is ${area}`)
+// var area = length * width;
+// console.log (`The area of rectangle is ${area}`)
+
+const product ={
+    name : "Basketball",
+    price : 600,
+    instock : true
+}
+const product2 ={
+    name : "Football",
+    price : 900,
+    instock : true
+}
+const product3 ={
+    name : "Cricketball",
+    price : 50,
+    instock : true
+}
+
+const products = [product,product2,product3];
+
+console.log(products)
