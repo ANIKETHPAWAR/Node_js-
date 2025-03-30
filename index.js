@@ -63,3 +63,12 @@ const Weather = {
 }
 
 console.log(Weather.date)
+
+// Day-2
+
+function calculateCircleArea(r){
+    const area = r*r*3.14159;
+    return console.log("Area : "+area)
+}
+
+calculateCircleArea(20)
