@@ -1,4 +1,6 @@
 const Prompt = require('prompt-sync')()
+var fs = require('fs')
+var _ = require('lodash')
 // const age = Prompt('Enter Your age');
 
 // if (age <18){
@@ -100,3 +102,23 @@ function subtract (a,b){
         }
 
 performOperation(5,6,multiply)
+
+// fs p-3
+// fs.appendFile('greet.txt','hello wassup',()=>{
+//     console.log('file created')
+// })
+// fs.readFile('greet.txt','utf8',(err,data)=>{
+//     if(err){
+//         console.log('Error : '+ err)
+//         return;
+//     }
+//     console.log(data);
+// })
+// p-4
+function sumOfeven(num){
+    const even = _.filter(num,num=>num % 2 == 0)
+    return _.sumBy(even)
+}
+
+let num = [2,3,4,5,6,7,8,9]
+console.log(sumOfeven(num))
